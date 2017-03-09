@@ -192,6 +192,7 @@ class Eva extends DisplayPluginBase {
         if (empty($form_state->getValue('entity_type'))) {
           $form_state->setError($form['entity_type'], $this->t('Must select an entity'));
         }
+        break;
     }
   }
 
